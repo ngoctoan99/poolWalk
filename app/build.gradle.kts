@@ -45,7 +45,15 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(project(":BackupAPI"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    val work_version = "2.9.0"
+    implementation ("androidx.work:work-runtime:$work_version")
+    implementation ("androidx.work:work-runtime-ktx:$work_version")
+
+    implementation ("androidx.sqlite:sqlite-ktx:2.4.0")
+    implementation ("androidx.sqlite:sqlite-framework:2.4.0")
 }

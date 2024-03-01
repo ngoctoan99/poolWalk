@@ -63,25 +63,25 @@
     <string name="pref_header_general">General</string>
     <string name="pref_group_title_personal_settings">Personalization</string>
 
-    <string name="pref_step_counter_enabled" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.step_counter_enabled</string>
+    <string name="pref_step_counter_enabled" translatable="false">com.example.clonepedometer.pref.step_counter_enabled</string>
     <string name="pref_title_step_counter_enabled">Permanent step counter</string>
     <string name="pref_summary_step_counter_enabled">The app counts your steps in background.</string>
 
-    <string name="pref_use_wake_lock" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.use_wake_lock</string>
+    <string name="pref_use_wake_lock" translatable="false">com.example.clonepedometer.pref.use_wake_lock</string>
     <string name="pref_title_use_wake_lock">Keep processor awake</string>
     <string name="pref_summary_use_wake_lock">On some devices the processor falls asleep and prevents counting steps. Enable this to keep the processor awake while counting steps - this may drain your battery!</string>
 
-    <string name="pref_use_wake_lock_during_training" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.use_wake_lock_during_training</string>
+    <string name="pref_use_wake_lock_during_training" translatable="false">com.example.clonepedometer.pref.use_wake_lock_during_training</string>
     <string name="pref_title_use_wake_lock_during_training">Wake lock during training</string>
     <string name="pref_summary_use_wake_lock_during_training">For better results during training mode keep processor awake. If app should keep the processor awake at any time this is automatically the case.</string>
 
-    <string name="pref_show_velocity" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.show_velocity</string>
+    <string name="pref_show_velocity" translatable="false">com.example.clonepedometer.pref.show_velocity</string>
     <string name="pref_title_show_velocity">Show current velocity</string>
     <string name="pref_summary_show_velocity">The app shows your current velocity in daily report. Access to your location is required to calculate the exact velocity.</string>
 
     <string name="pref_default_daily_step_goal" translatable="false">10000</string>
     <string name="pref_title_daily_step_goal">Personal daily step goal</string>
-    <string name="pref_unit_of_length" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.unit_of_length</string>
+    <string name="pref_unit_of_length" translatable="false">com.example.clonepedometer.pref.unit_of_length</string>
     <string name="pref_title_unit_of_length">Unit of length</string>
     <string-array name="pref_keys_unit_of_length">
         <item>kilometers</item>
@@ -93,7 +93,7 @@
     </string-array>
     <string name="unit_of_length_km">1|km|kilometers|km/h|1000|m</string><!-- 1km = 1km -->
     <string name="unit_of_length_mi">0.621371|mi|miles|mph|5280|ft</string><!-- 1km = 0.621371 miles -->
-    <string name="pref_unit_of_energy" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.unit_of_energy</string>
+    <string name="pref_unit_of_energy" translatable="false">com.example.clonepedometer.pref.unit_of_energy</string>
     <string name="pref_title_unit_of_energy">Unit of energy</string>
     <string-array name="pref_keys_unit_of_energy">
         <item>calories</item>
@@ -108,15 +108,15 @@
     <string name="pref_summary_notification_permanent">The permanent notification is shown when the app counts your steps in background. You can customize what the app should show you.</string>
     <string name="pref_summary_accelerometer_threshold">The app uses the accelerometer of your device. To optimize the step detection adjust the sensitivity, please.</string>
 
-    <string name="pref_export_data" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.exportdata</string>
+    <string name="pref_export_data" translatable="false">com.example.clonepedometer.pref.exportdata</string>
     <string name="pref_title_export_data">Export data</string>
     <string name="pref_summary_export_data">Export step count in csv file.</string>
 
-    <string name="pref_weight" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.weight</string>
+    <string name="pref_weight" translatable="false">com.example.clonepedometer.pref.weight</string>
     <string name="pref_title_weight">Weight (kg)</string>
     <string name="pref_default_weight" translatable="false">65.0</string>
 
-    <string name="pref_gender" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.gender</string>
+    <string name="pref_gender" translatable="false">com.example.clonepedometer.pref.gender</string>
     <string name="pref_title_gender">Gender</string>
     <string-array name="pref_keys_gender">
         <item>female</item>
@@ -126,7 +126,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-    <string name="pref_accelerometer_threshold" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.accelerometer_threshold</string>
+    <string name="pref_accelerometer_threshold" translatable="false">com.example.clonepedometer.pref.accelerometer_threshold</string>
     <string name="pref_title_accelerometer_threshold">Sensitivity</string>
     <string-array name="pref_keys_accelerometer_threshold">
         <item>very high</item>
@@ -170,7 +170,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-    <string name="pref_accelerometer_steps_threshold" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.accelerometer_step_threshold</string>
+    <string name="pref_accelerometer_steps_threshold" translatable="false">com.example.clonepedometer.pref.accelerometer_step_threshold</string>
     <string name="pref_title_accelerometer_steps_threshold">Steps before counting starts</string>
     <string name="pref_default_accelerometer_steps_threshold" translatable="false">10</string>
     <!-- /general settings -->
@@ -179,20 +179,20 @@
     <string name="pref_group_title_permanent_notification">Permanent Notification</string>
     <string name="pref_group_title_motivation_alert">Motivation Alert</string>
 
-    <string name="pref_notification_permanent_show_steps" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.permanent_notification_show_steps</string>
+    <string name="pref_notification_permanent_show_steps" translatable="false">com.example.clonepedometer.pref.permanent_notification_show_steps</string>
     <string name="pref_title_notification_permanent_show_steps">Show number of steps walked today</string>
-    <string name="pref_notification_permanent_show_distance" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.permanent_notification_show_distance</string>
+    <string name="pref_notification_permanent_show_distance" translatable="false">com.example.clonepedometer.pref.permanent_notification_show_distance</string>
     <string name="pref_title_notification_permanent_show_distance">Show distance walked today</string>
-    <string name="pref_notification_permanent_show_calories" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.permanent_notification_show_calories</string>
+    <string name="pref_notification_permanent_show_calories" translatable="false">com.example.clonepedometer.pref.permanent_notification_show_calories</string>
     <string name="pref_title_notification_permanent_show_calories">Show number of calories</string>
 
-    <string name="pref_notification_motivation_alert_enabled" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.motivation_alert_enabled</string>
+    <string name="pref_notification_motivation_alert_enabled" translatable="false">com.example.clonepedometer.pref.motivation_alert_enabled</string>
     <string name="pref_title_notification_motivation_alert_enabled">Enable motivation alert</string>
-    <string name="pref_notification_motivation_alert_time" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.motivation_alert_time</string>
+    <string name="pref_notification_motivation_alert_time" translatable="false">com.example.clonepedometer.pref.motivation_alert_time</string>
     <string name="pref_title_notification_motivation_alert_time">Motivation alert time</string>
-    <string name="pref_notification_motivation_alert_texts" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.motivation_alert_texts</string>
+    <string name="pref_notification_motivation_alert_texts" translatable="false">com.example.clonepedometer.pref.motivation_alert_texts</string>
     <string name="pref_title_notification_motivation_alert_texts">Motivation notification texts</string>
-    <string name="pref_notification_motivation_alert_criterion" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.motivation_alert_criterion</string>
+    <string name="pref_notification_motivation_alert_criterion" translatable="false">com.example.clonepedometer.pref.motivation_alert_criterion</string>
     <string name="pref_title_notification_motivation_alert_criterion">Motivation alert criterion</string>
     <string-array name="pref_keys_notification_motivation_alert_criterion">
         <item>less than 90&#65285; of daily step goal</item>
@@ -206,15 +206,15 @@
     </string-array>
     <!-- /notification settings -->
     <string name="pref_header_walking_modes">Walking modes</string>
-    <string name="pref_widget_data_set" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.widget_data_set_</string>
-    <string name="pref_distance_measurement_start_timestamp" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.distance_measurement_start_timestamp</string>
-    <string name="pref_hw_steps_on_last_save" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.hw_steps_on_last_save</string>
-    <string name="pref_hw_background_counter_frequency" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.hw_background_counter_frequency</string>
-    <string name="pref_which_step_hardware" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.which_step_hardware</string>
+    <string name="pref_widget_data_set" translatable="false">com.example.clonepedometer.pref.widget_data_set_</string>
+    <string name="pref_distance_measurement_start_timestamp" translatable="false">com.example.clonepedometer.pref.distance_measurement_start_timestamp</string>
+    <string name="pref_hw_steps_on_last_save" translatable="false">com.example.clonepedometer.pref.hw_steps_on_last_save</string>
+    <string name="pref_hw_background_counter_frequency" translatable="false">com.example.clonepedometer.pref.hw_background_counter_frequency</string>
+    <string name="pref_which_step_hardware" translatable="false">com.example.clonepedometer.pref.which_step_hardware</string>
     <!-- /Preferences -->
 
     <!-- Will be removed on next update -->
-    <string name="pref_daily_step_goal" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.daily_step_goal</string>
+    <string name="pref_daily_step_goal" translatable="false">com.example.clonepedometer.pref.daily_step_goal</string>
     <string name="notification_text_steps">%1$d of %2$d steps walked today.</string>
     <string name="notification_text_distance">%1$.2f %2$s walked today.</string>
     <string name="notification_text_calories">Burned %.2f kcal today.</string>
@@ -270,7 +270,7 @@
     <string name="walking_mode_learning_steps_description">Steps walked:</string>
     <string name="walking_mode_learning_stop">End learning mode</string>
     <string name="walking_mode_learning_description">The application can learn the distance per step. Please walk the given distance and press end if you finished.</string>
-    <string name="pref_walking_mode_learning_active" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.walking_mode_learning_active</string>
+    <string name="pref_walking_mode_learning_active" translatable="false">com.example.clonepedometer.pref.walking_mode_learning_active</string>
     <string name="step_length">Step length:</string>
     <string name="walking_mode_active_ext"> (active)</string>
     <string name="walking_mode_input_empty">Name and step length are required. Please fill in!</string>
@@ -328,7 +328,7 @@
     <string name="help_permission_storage_description">is needed to export your collected data as a CSV-file. This permission is only requested when you want to export your data.</string>
     <string name="help_permission_storage_heading">Permission: Write External Storage</string>
     <string name="pref_notification_permanent">The permanent notification is displayed when the application counts your steps in the background. You can customize what the application should display.</string>
-    <string name="pref_use_step_hardware" translatable="false">org.secuso.privacyfriendlyactivitytracker.pref.use_step_hardware</string>
+    <string name="pref_use_step_hardware" translatable="false">com.example.clonepedometer.pref.use_step_hardware</string>
     <string name="pref_summary_use_step_hardware">Some phones have built-in step counting hardware. This can reduce battery usage and increase precision. However, it does not work reliably on all devices with our app. Disable if steps are not counted.</string>
     <string name="pref_title_use_step_hardware">Use phone\'s step counting hardware</string>
     <string name="pref_use_step_hardware_not_available">This device does not support hardware step counting.</string>

@@ -21,4 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Clone Pedometer"
 include(":app")
+include(":BackupAPI")
+
+
  

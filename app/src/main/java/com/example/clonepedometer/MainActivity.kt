@@ -287,7 +287,7 @@ class MainActivity : AppCompatActivity() {
 //    }
 //    //        private val mAdapter: ReportAdapter? = null
 ////        private val mRecyclerView: RecyclerView? = null
-////        private val mListener: org.secuso.privacyfriendlyactivitytracker.fragments.DailyReportFragment.OnFragmentInteractionListener? =
+////        private val mListener: com.example.clonepedometer.fragments.DailyReportFragment.OnFragmentInteractionListener? =
 ////            null
 //    private var activitySummary: ActivitySummary? = null
 //    private var activityChart: ActivityDayChart? = null

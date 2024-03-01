@@ -43,8 +43,8 @@ import java.util.Calendar;
 import java.util.List;
 
 public class WidgetReceiver extends AppWidgetProvider {
-    public static final String PAUSE_STEP_DETECTION_ACTION = "org.secuso.privacyfriendlyactivitytracker.PAUSE_STEP_DETECTION_ACTION";
-    public static final String CONTINUE_STEP_DETECTION_ACTION = "org.secuso.privacyfriendlyactivitytracker.CONTINUE_STEP_DETECTION_ACTION";
+    public static final String PAUSE_STEP_DETECTION_ACTION = "com.example.clonepedometer.PAUSE_STEP_DETECTION_ACTION";
+    public static final String CONTINUE_STEP_DETECTION_ACTION = "com.example.clonepedometer.CONTINUE_STEP_DETECTION_ACTION";
     public static final int DATA_SET_STEPS = 0;
     public static final int DATA_SET_DISTANCE = 1;
     public static final int DATA_SET_CALORIES = 2;
