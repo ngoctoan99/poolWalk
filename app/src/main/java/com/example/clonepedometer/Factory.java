@@ -47,7 +47,7 @@ public class Factory {
     public static Class<? extends AbstractStepDetectorService> getStepDetectorServiceClass(Context context){
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
         PackageManager pm = context.getPackageManager();
-        if(pm != null && AndroidVersionHelper.supportsStepDetector(pm) && sharedPref.getBoolean(context.getString(R.string.pref_use_step_hardware), true)) {
+        if(pm != null && AndroidVersionHelper.supportsStepDetector(pm) && sharedPref.getBoolean(context.getString(R.string.pref_use_step_hardware), false)) {
             return HardwareStepService.class;
         }else{
             return AccelerometerStepDetectorService.class;
